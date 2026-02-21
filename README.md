@@ -6,17 +6,17 @@ With this library, printing will be much easier and more customizable.
 
 To download the library, use one of the following commands in your terminal:
 
-- ``pip install easyprint``
-- ``pip3 install easyprint``
+- ``pip install jotprint``
+- ``pip3 install jotprint``
 
 # Usage
 
-The only function in **easyprint** is `write`. In `write`, you specify the set of elements the program will print by separating them with commas inside parentheses. For example:
+The only function in **jotprint** is `write`. In `write`, you specify the set of elements the program will print by separating them with commas inside parentheses. For example:
 
 ```python
-import easyprint 
+import jotprint 
 
-easyprint.write(7, "Python3", 3.14)
+jotprint.write(7, "Python3", 3.14)
 ```
 
 The output for this example is:
@@ -28,9 +28,9 @@ Python3
 
 Additionally, if we specify a sep (short for separator) in write, the function will print the set separated however you choose. For example:
 ```python
-import easyprint
+import jotprint
 
-easyprint.write("I love", "Python3", sep=" ")
+jotprint.write("I love", "Python3", sep=" ")
 ```
 The output of the program is:
 ```
@@ -39,7 +39,7 @@ I love Python3
 
 Another example:
 ```python
-import easyprint
+import jotprint
 
 a = int(input())
 b = int(input())
