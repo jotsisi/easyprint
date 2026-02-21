@@ -1,0 +1,13 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpetas de empaquetado (las que crea el comando build)
+build/
+dist/
+*.egg-info/
+
+# Entornos virtuales
+venv/
+.venv/
